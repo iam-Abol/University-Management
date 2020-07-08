@@ -12,18 +12,20 @@ private:
 	std::string phoneNumber;
 	std::vector <double> dataStructureScores;
 	double dataStructureGPA;
-	bool DataStructureScoreUnder10;
+	bool DataStructureGPAUnder10;
 	std::vector <double> mathScores;
 	double mathGPA;
-	bool mathScoreUnder10;
+	bool mathGPAUnder10;
 	std::vector <double> scienceScores;
 	double scienceGPA;
-	bool scienceScoreUnder10;
+	bool scienceGPAUnder10;
 	std::vector <double> physicalEducationScores;
 	double physicalEducationGPA;
-	bool physicalEducationScoreUnder10;
+	bool physicalEducationGPAUnder10;
+
 public:
 	Student();
 	~Student();
+	void printAllInformation();
 };
 
