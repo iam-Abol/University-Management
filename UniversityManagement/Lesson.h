@@ -16,5 +16,6 @@ public:
 	std::vector<double> getScores();
 	void setScores(std::vector<double> scores);
 	void printScores();
+	void addNewScore(double newScore);
 };
 
