@@ -5,8 +5,11 @@
 class Lesson
 {
 private:
+	std::string name;
+	std::vector<double> scores;
 public:
 	Lesson();
 	~Lesson();
+	std::string getName();
 };
 
