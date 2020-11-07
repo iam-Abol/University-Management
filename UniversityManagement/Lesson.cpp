@@ -39,3 +39,6 @@ void Lesson::printScores(){
 			std::cout << ", ";
 	}
 }
+void Lesson::addNewScore(double newScore){
+	scores.push_back(newScore);
+}
