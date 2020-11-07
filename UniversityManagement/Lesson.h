@@ -18,6 +18,7 @@ public:
 	void printScores();
 	void addNewScore(double newScore);
 	double getGPA();
+	void setScores(std::string scores);
 private:
 	void updateGPA();
 };
