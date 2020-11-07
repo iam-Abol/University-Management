@@ -17,5 +17,8 @@ public:
 	void setScores(std::vector<double> scores);
 	void printScores();
 	void addNewScore(double newScore);
+	
+private:
+	void updateGPA();
 };
 
