@@ -13,6 +13,6 @@ public:
 	std::string getName();
 	void setName(std::string name);
 	std::vector<double> getScores();
-	void setScore(std::vector<double> scores);
+	void setScores(std::vector<double> scores);
 };
 

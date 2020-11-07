@@ -23,3 +23,11 @@ void Lesson::setName(std::string name){
 std::vector<double> Lesson::getScores(){
 	return scores;
 }
+
+void Lesson::setScores(std::vector<double> scores){
+	double score;
+	for (int i = 0; i < scores.size(); i++){
+		
+		this->scores.push_back(scores[i]);
+	}
+}
