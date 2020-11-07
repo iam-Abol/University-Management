@@ -51,3 +51,7 @@ void Lesson::updateGPA(){
 	}
 	GPA = sum / scores.size();
 }
+double Lesson::getGPA(){
+	updateGPA();
+	return GPA;
+}
