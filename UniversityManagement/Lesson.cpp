@@ -33,5 +33,9 @@ void Lesson::setScores(std::vector<double> scores){
 }
 void Lesson::printScores(){
 	std::cout << name << " scores : " << std::endl;
-
+	for (int i = 0; i < scores.size(); i++){
+		std::cout << scores[i] << " ";
+		if (i < scores.size() - 1)
+			std::cout << ", ";
+	}
 }
