@@ -7,6 +7,7 @@ class Lesson
 private:
 	std::string name;
 	std::vector<double> scores;
+	double GPA;
 public:
 	Lesson();
 	~Lesson();
