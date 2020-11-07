@@ -11,5 +11,6 @@ public:
 	Lesson();
 	~Lesson();
 	std::string getName();
+	void setName(std::string name);
 };
 

@@ -15,3 +15,7 @@ Lesson::~Lesson()
 std::string Lesson::getName(){
 	return name;
 }
+
+void Lesson::setName(std::string name){
+	this->name = name;
+}
