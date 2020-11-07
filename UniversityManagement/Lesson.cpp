@@ -42,3 +42,10 @@ void Lesson::printScores(){
 void Lesson::addNewScore(double newScore){
 	scores.push_back(newScore);
 }
+void Lesson::updateGPA(){
+	double sum = 0;
+	for (int i = 0; i < scores.size(); i++){
+		sum += scores[i];
+	}
+	GPA = sum / scores.size();
+}
