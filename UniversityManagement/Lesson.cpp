@@ -31,3 +31,7 @@ void Lesson::setScores(std::vector<double> scores){
 		this->scores.push_back(scores[i]);
 	}
 }
+void Lesson::printScores(){
+	std::cout << name << " scores : " << std::endl;
+
+}

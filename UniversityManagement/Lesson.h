@@ -14,5 +14,6 @@ public:
 	void setName(std::string name);
 	std::vector<double> getScores();
 	void setScores(std::vector<double> scores);
+	void printScores();
 };
 
