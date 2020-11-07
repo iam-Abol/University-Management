@@ -12,5 +12,6 @@ public:
 	~Lesson();
 	std::string getName();
 	void setName(std::string name);
+	std::vector<double> getScores();
 };
 

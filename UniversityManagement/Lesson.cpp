@@ -19,3 +19,7 @@ std::string Lesson::getName(){
 void Lesson::setName(std::string name){
 	this->name = name;
 }
+
+std::vector<double> Lesson::getScores(){
+	return scores;
+}
