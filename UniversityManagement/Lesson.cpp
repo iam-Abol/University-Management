@@ -30,6 +30,7 @@ void Lesson::setScores(std::vector<double> scores){
 		
 		this->scores.push_back(scores[i]);
 	}
+	updateGPA();
 }
 void Lesson::printScores(){
 	std::cout << name << " scores : " << std::endl;
@@ -41,6 +42,7 @@ void Lesson::printScores(){
 }
 void Lesson::addNewScore(double newScore){
 	scores.push_back(newScore);
+	updateGPA();
 }
 void Lesson::updateGPA(){
 	double sum = 0;
