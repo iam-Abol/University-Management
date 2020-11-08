@@ -59,9 +59,8 @@ void Lesson::setScores(std::string scores){
 	std::string number = "1234567890.";
 	std::string score = "";
 	for (int i = 0; i < scores.size(); i++){
-		
-		if (){
-
+		if (number.find(scores[i])>=0&&number.find(scores[i])<number.size()){
+			score += scores[i];
 
 		}
 		else
