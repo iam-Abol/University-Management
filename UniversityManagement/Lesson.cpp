@@ -67,12 +67,12 @@ void Lesson::setScores(std::string scores){
 		{
 			if (score != ""){
 				double s = std::stod(score);
-				std::cout << s << std::endl;
+				this->scores.push_back(s);
 				score = "";
 			}
 
 
 		}
 	}
-	std::cout << score;
+	this->scores.push_back(std::stod(score));
 }
