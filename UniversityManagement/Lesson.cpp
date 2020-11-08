@@ -55,3 +55,8 @@ double Lesson::getGPA(){
 	updateGPA();
 	return GPA;
 }
+void Lesson::setScores(std::string scores){
+	for (int i = 0; i < scores.size(); i++){
+		std::cout << scores[i];
+	}
+}
