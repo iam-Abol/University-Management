@@ -56,7 +56,17 @@ double Lesson::getGPA(){
 	return GPA;
 }
 void Lesson::setScores(std::string scores){
+	std::string number = "1234567890.";
+	std::string score = "";
 	for (int i = 0; i < scores.size(); i++){
-		std::cout << scores[i];
+		
+		if (){
+
+
+		}
+		else
+		{
+			score = "";
+		}
 	}
 }
