@@ -27,7 +27,7 @@ std::vector<double> Lesson::getScores(){
 void Lesson::setScores(std::vector<double> scores){
 	double score;
 	for (int i = 0; i < scores.size(); i++){
-		
+
 		this->scores.push_back(scores[i]);
 	}
 	updateGPA();
@@ -59,13 +59,15 @@ void Lesson::setScores(std::string scores){
 	std::string number = "1234567890.";
 	std::string score = "";
 	for (int i = 0; i < scores.size(); i++){
-		if (number.find(scores[i])>=0&&number.find(scores[i])<number.size()){
+		if (number.find(scores[i]) >= 0 && number.find(scores[i]) < number.size()){
 			score += scores[i];
 
 		}
 		else
 		{
+			std::cout << score ;
 			score = "";
 		}
 	}
+	std::cout << score;
 }
