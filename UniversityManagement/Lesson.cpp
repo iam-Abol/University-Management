@@ -74,5 +74,6 @@ void Lesson::setScores(std::string scores){
 
 		}
 	}
-	this->scores.push_back(std::stod(score));
+	if (score != "")
+		this->scores.push_back(std::stod(score));
 }
