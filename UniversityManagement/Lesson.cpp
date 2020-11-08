@@ -65,8 +65,13 @@ void Lesson::setScores(std::string scores){
 		}
 		else
 		{
-			std::cout << score ;
-			score = "";
+			if (score != ""){
+				double s = std::stod(score);
+				std::cout << s << std::endl;
+				score = "";
+			}
+
+
 		}
 	}
 	std::cout << score;
