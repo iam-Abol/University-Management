@@ -77,3 +77,6 @@ void Lesson::setScores(std::string scores){
 	if (score != "")
 		this->scores.push_back(std::stod(score));
 }
+int Lesson::getSize(){
+	return size;
+}

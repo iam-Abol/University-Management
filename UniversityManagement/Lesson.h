@@ -8,6 +8,7 @@ private:
 	std::string name;
 	std::vector<double> scores;
 	double GPA;
+	int size;
 public:
 	Lesson();
 	~Lesson();
@@ -19,6 +20,7 @@ public:
 	void addNewScore(double newScore);
 	double getGPA();
 	void setScores(std::string scores);
+	int getSize();
 private:
 	void updateGPA();
 };
