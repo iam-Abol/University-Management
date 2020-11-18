@@ -19,7 +19,10 @@ void Student::printAllInformation(){
 	std::cout << "last name : " << lastName << std::endl;
 	std::cout << "national code : " << nationalCode << std::endl;
 	std::cout << "phone number : " << phoneNumber << std::endl;
-
+	for (int  i = 0; i < lessons.size(); i++)
+	{
+		lessons[i].printScores();
+	}
 	
 
 }
