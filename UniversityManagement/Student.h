@@ -31,6 +31,7 @@ public:
 	void setStudentCode(int number);
 	std::string getName();
 	void setName(std::string name);
+	std::string getLastName();
 	Student();
 	~Student();
 	void printAllInformation();
