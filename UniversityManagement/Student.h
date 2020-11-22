@@ -30,6 +30,7 @@ public:
 	int getStudentCode();
 	void setStudentCode(int number);
 	std::string getName();
+	void setName(std::string name);
 	Student();
 	~Student();
 	void printAllInformation();

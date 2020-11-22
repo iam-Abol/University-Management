@@ -26,6 +26,8 @@ void Student::printAllInformation(){
 	
 
 }
+// getter and setters
 int Student::getStudentCode(){ return studentCode; }
 void Student::setStudentCode(int number){ studentCode = number; }
 std::string Student::getName(){ return name; }
+void Student::setName(std::string name){ this->name = name; }
