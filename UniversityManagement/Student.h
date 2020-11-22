@@ -28,6 +28,7 @@ private:
 
 public:
 	int getStudentCode();
+	void setStudentCode(int number);
 	Student();
 	~Student();
 	void printAllInformation();
