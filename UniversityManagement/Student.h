@@ -29,6 +29,7 @@ private:
 public:
 	int getStudentCode();
 	void setStudentCode(int number);
+	std::string getName();
 	Student();
 	~Student();
 	void printAllInformation();
