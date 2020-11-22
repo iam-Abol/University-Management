@@ -33,4 +33,4 @@ std::string Student::getName(){ return name; }
 void Student::setName(std::string name){ this->name = name; }
 std::string Student::getLastName(){ return lastName; }
 void Student::setLastName(std::string lastName){ this->lastName = lastName; }
-
+std::string Student::getNationalCode(){ return nationalCode; }

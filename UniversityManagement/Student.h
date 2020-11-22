@@ -33,7 +33,7 @@ public:
 	void setName(std::string name);
 	std::string getLastName();
 	void setLastName(std::string LastName);
-
+	std::string getNationalCode();
 	Student();
 	~Student();
 	void printAllInformation();
