@@ -7,6 +7,7 @@ class Student
 {
 private:
 	int studentCode;
+	
 	std::string name;
 	std::string lastName;
 	std::string nationalCode;
