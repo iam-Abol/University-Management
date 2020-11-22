@@ -10,7 +10,7 @@ public:
 	FileManagement();
 	~FileManagement();
 	
-	static void Read(std::vector <double> students);
+	static void Read(std::vector <Student> students);
 
 	
 };
