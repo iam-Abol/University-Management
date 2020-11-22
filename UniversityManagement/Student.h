@@ -27,6 +27,7 @@ private:
 	bool physicalEducationGPAUnder10;*/
 
 public:
+	int getStudentCode();
 	Student();
 	~Student();
 	void printAllInformation();

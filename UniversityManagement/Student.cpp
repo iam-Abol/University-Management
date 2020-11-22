@@ -26,3 +26,4 @@ void Student::printAllInformation(){
 	
 
 }
+int Student::getStudentCode(){ return studentCode; }
