@@ -32,6 +32,8 @@ public:
 	std::string getName();
 	void setName(std::string name);
 	std::string getLastName();
+	void setLastName(std::string LastName);
+
 	Student();
 	~Student();
 	void printAllInformation();
