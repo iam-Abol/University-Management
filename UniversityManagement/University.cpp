@@ -13,3 +13,6 @@ University::University(){
 	
 	FileManagement::Read(students, "student.txt");
 }
+void University::searchForStudent(int studentCode){
+
+}

@@ -10,5 +10,6 @@ public:
 	University();
 	~University();
 
+	void searchForStudent(int studentCode);
 };
 
