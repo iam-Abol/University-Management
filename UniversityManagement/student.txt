@@ -4,11 +4,11 @@ Mohammady
 30800000000
 989222222
 math 20 20 20 0 0 2 2 02 0
-data structure 1 11 11 11 1 1 1 1 1 11 1 1 1 1 
+datastructure 1 11 11 11 1 1 1 1 1 11 1 1 1 1 
 2
 Ali
 Mohay
 30800dss000000
 989222221112
 math 20 20 200 0 0 2 2 02 0
-data structure 10 2 2 22 2 22222222 2
+datastructure 10 2 2 22 2 22222222 2

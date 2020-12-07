@@ -38,8 +38,10 @@ void FileManagement::Read(std::vector <Student>& students,std::string path,int n
 			lesson.setName(line);
 			std::getline(read, line);
 			lesson.setScores(line);
-			temp.getLessons().push_back(lesson);
+			temp.pushLesson(lesson);
 		}
+		students.push_back(temp);
+		
 	}
 
 }
