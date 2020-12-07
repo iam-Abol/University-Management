@@ -11,7 +11,7 @@ private:
 	std::string name;
 	std::string lastName;
 	std::string nationalCode;
-	std::string phoneNumber;
+	 std::string phoneNumber;
 	std::vector <Lesson> lessons;
 	/*std::vector <double> dataStructureScores;
 	double dataStructureGPA;
@@ -35,7 +35,8 @@ public:
 	void setLastName(std::string LastName);
 	std::string getNationalCode();
 	void setNationalCode(std::string nationalCode);
-	std::string  getPhoneNumber();
+	std::string getPhoneNumber();
+	void setPhoneNumber(const std::string& phoneNumber);
 	Student();
 	~Student();
 	void printAllInformation();
