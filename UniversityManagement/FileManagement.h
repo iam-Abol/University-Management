@@ -11,7 +11,7 @@ public:
 	FileManagement();
 	~FileManagement();
 	//void setFileName(const std::string& fileName);
-	static void Read(std::vector <Student>& students,std::string path,int numberOfLessons);
+	static void Read(std::vector <Student>& students,std::string path);
 
 
 };

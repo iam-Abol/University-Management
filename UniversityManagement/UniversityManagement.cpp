@@ -5,10 +5,10 @@
 #include <vector>
 #include "FileManagement.h"
 #include "Lesson.h"
-
+#include "University.h"
 int _tmain(int argc, _TCHAR* argv[])
 {
-	
+	University university;
 	return 0;
 }
 
