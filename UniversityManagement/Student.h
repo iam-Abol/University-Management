@@ -35,6 +35,7 @@ public:
 	void setLastName(std::string LastName);
 	std::string getNationalCode();
 	void setNationalCode(std::string nationalCode);
+	std::string  getPhoneNumber();
 	Student();
 	~Student();
 	void printAllInformation();
