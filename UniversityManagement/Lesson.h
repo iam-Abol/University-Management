@@ -21,6 +21,7 @@ public:
 	double getGPA();
 	void setScores(std::string scores);
 	int getSize();
+	std::string getScoresAsAString();
 private:
 	void updateGPA();
 };

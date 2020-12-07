@@ -82,3 +82,11 @@ void Lesson::setScores(std::string scores){
 int Lesson::getSize(){
 	return size;
 }
+std::string Lesson::getScoresAsAString(){
+	std::string l = "";
+	for (int i = 0; i < scores.size(); i++){
+		l += std::to_string(scores[i]);
+		if (i < scores.size() - 1)
+			l += " ";
+	}
+}
