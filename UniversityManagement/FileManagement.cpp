@@ -35,7 +35,7 @@ void FileManagement::Read(std::vector <Student>& students,std::string path){
 		temp.setNationalCode(line);
 		read >> line;
 		temp.setPhoneNumber(line);
-		for (int i = 0; i < numberOfLessons; i++)
+		for (int j = 0; j < numberOfLessons; j++)
 		{
 			read >> line;
 			Lesson lesson;
@@ -45,7 +45,7 @@ void FileManagement::Read(std::vector <Student>& students,std::string path){
 			temp.pushLesson(lesson);
 		}
 		students.push_back(temp);
-		
+		temp = Student();
 	}
 	
 
@@ -55,17 +55,20 @@ void FileManagement::write(std::vector <Student>& students){
 	std::string line;
 	std::string allLinesForAdding="";
 	line = std::to_string(students.size());// number of students
-	allLinesForAdding += line + "\n";
+	allLinesForAdding += line + " ";
 	line = std::to_string(students[0].getLessons().size());//number of lessons of each student
 	allLinesForAdding += line + "\n";
 	for (int i = 0; i < students.size(); i++){
-		allLinesForAdding += students[i].getStudentCode() + "\n";
+		allLinesForAdding += std::to_string(students[i].getStudentCode()) + "\n";
 		allLinesForAdding += students[i].getName() + "\n";
 		allLinesForAdding += students[i].getLastName() + "\n";
 		allLinesForAdding += students[i].getNationalCode() + "\n";
 		allLinesForAdding += students[i].getPhoneNumber() + "\n";
 		for (int j = 0; j < students[i].getLessons().size(); j++){
-			allLinesForAdding += students[i].getLessons()[j].getName() + " " + students[i].getLessons()[j].getScores() + "\n";
+			allLinesForAdding += students[i].getLessons()[j].getName() + " " + students[i].getLessons()[j].getScoresAsAString() + "\n";
 		}
 	}
+	std::fstream write("student.txt");
+
+	write << allLinesForAdding;
 }

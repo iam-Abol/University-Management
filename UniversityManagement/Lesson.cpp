@@ -89,4 +89,5 @@ std::string Lesson::getScoresAsAString(){
 		if (i < scores.size() - 1)
 			l += " ";
 	}
+	return l;
 }
