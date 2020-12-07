@@ -49,3 +49,6 @@ void FileManagement::Read(std::vector <Student>& students,std::string path){
 	}
 
 }
+void FileManagement::write(){
+
+}

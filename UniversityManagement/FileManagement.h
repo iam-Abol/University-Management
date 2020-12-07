@@ -12,7 +12,7 @@ public:
 	~FileManagement();
 	//void setFileName(const std::string& fileName);
 	static void Read(std::vector <Student>& students,std::string path);
-
+	static void write();
 
 };
 

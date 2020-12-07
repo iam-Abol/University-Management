@@ -7,6 +7,8 @@
 
 University::~University()
 {
+	FileManagement::write();
+	
 }
 
 University::University(){
