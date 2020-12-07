@@ -37,6 +37,7 @@ public:
 	void setNationalCode(std::string nationalCode);
 	std::string getPhoneNumber();
 	void setPhoneNumber(const std::string& phoneNumber);
+	std::vector <Lesson> getLessons()const;
 	Student();
 	~Student();
 	void printAllInformation();
