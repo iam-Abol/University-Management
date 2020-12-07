@@ -47,8 +47,25 @@ void FileManagement::Read(std::vector <Student>& students,std::string path){
 		students.push_back(temp);
 		
 	}
+	
 
 }
-void FileManagement::write(){
 
+void FileManagement::write(std::vector <Student>& students){
+	std::string line;
+	std::string allLinesForAdding="";
+	line = std::to_string(students.size());// number of students
+	allLinesForAdding += line + "\n";
+	line = std::to_string(students[0].getLessons().size());//number of lessons of each student
+	allLinesForAdding += line + "\n";
+	for (int i = 0; i < students.size(); i++){
+		allLinesForAdding += students[i].getStudentCode() + "\n";
+		allLinesForAdding += students[i].getName() + "\n";
+		allLinesForAdding += students[i].getLastName() + "\n";
+		allLinesForAdding += students[i].getNationalCode() + "\n";
+		allLinesForAdding += students[i].getPhoneNumber() + "\n";
+		for (int j = 0; j < students[i].getLessons().size(); j++){
+			allLinesForAdding += students[i].getLessons()[j].getName() + " " + students[i].getLessons()[j].getScores() + "\n";
+		}
+	}
 }

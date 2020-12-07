@@ -7,7 +7,7 @@
 
 University::~University()
 {
-	FileManagement::write();
+	FileManagement::write(students);
 	
 }
 
