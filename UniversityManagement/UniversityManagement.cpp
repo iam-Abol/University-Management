@@ -9,6 +9,9 @@
 int _tmain(int argc, _TCHAR* argv[])
 {
 	University university;
+	int number;
+	std::cin >> number;
+	university.searchForStudent(number);
 	return 0;
 }
 

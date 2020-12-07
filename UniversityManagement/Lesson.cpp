@@ -38,7 +38,9 @@ void Lesson::printScores(){
 		std::cout << scores[i] << " ";
 		if (i < scores.size() - 1)
 			std::cout << ", ";
+		
 	}
+	std::cout << std::endl;
 }
 void Lesson::addNewScore(double newScore){
 	scores.push_back(newScore);

@@ -1,15 +1,9 @@
-﻿Build started 12/07/2020 06:43:04 ب.ظ.
+﻿Build started 12/07/2020 07:03:03 ب.ظ.
      1>Project "E:\AbolLife\git\UniversityManagement\UniversityManagement\UniversityManagement.vcxproj" on node 2 (Build target(s)).
      1>Link:
-         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\AbolLife\git\UniversityManagement\Debug\UniversityManagement.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\AbolLife\git\UniversityManagement\Debug\UniversityManagement.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\AbolLife\git\UniversityManagement\Debug\UniversityManagement.lib" /MACHINE:X86 Debug\FileManagement.obj
-         Debug\Lesson.obj
-         Debug\stdafx.obj
-         Debug\Student.obj
-         Debug\University.obj
-         Debug\UniversityManagement.obj
          UniversityManagement.vcxproj -> E:\AbolLife\git\UniversityManagement\Debug\UniversityManagement.exe
      1>Done Building Project "E:\AbolLife\git\UniversityManagement\UniversityManagement\UniversityManagement.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.35
+Time Elapsed 00:00:00.07
