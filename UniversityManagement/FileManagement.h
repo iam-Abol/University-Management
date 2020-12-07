@@ -5,11 +5,11 @@
 class FileManagement
 {
 private:
-	const std::string fileName = "studentsInformation";
+	 std::string fileName;
 public:
 	FileManagement();
 	~FileManagement();
-	
+	void setFileName(const std::string& fileName);
 	static void Read(std::vector <Student> students);
 
 	
