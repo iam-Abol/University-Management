@@ -8,9 +8,7 @@
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	std::vector<Student> stu;
-
-	FileManagement::Read(stu,"student.txt",2);
+	
 	return 0;
 }
 
