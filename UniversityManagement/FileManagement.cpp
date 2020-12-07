@@ -14,17 +14,32 @@ FileManagement::~FileManagement()
 //void FileManagement::setFileName(const std::string& fileName){
 //	this->fileName = fileName;
 //}
-void FileManagement::Read(std::vector <Student>& students,std::string path){
+void FileManagement::Read(std::vector <Student>& students,std::string path,int numberOfLessons){
 	"""this function should read everything from file and when it finished reading the scores it should find the GPA """;
 	Student temp;
-	std::string str;
+	std::string line;
 	std::fstream read(path);
 	while (read)
 	{
-		read >> str;
-		temp.setStudentCode(std::stoi(str));
-		read >> str;
-		temp.setName(str);
+		read >> line;
+		temp.setStudentCode(std::stoi(line));
+		read >> line;
+		temp.setName(line);
+		read >> line;
+		temp.setLastName(line);
+		read >> line;
+		temp.setNationalCode(line);
+		read >> line;
+		temp.setPhoneNumber(line);
+		for (int i = 0; i < numberOfLessons; i++)
+		{
+			read >> line;
+			Lesson lesson;
+			lesson.setName(line);
+			std::getline(read, line);
+			lesson.setScores(line);
+			temp.getLessons().push_back(lesson);
+		}
 	}
 
 }

@@ -38,3 +38,6 @@ void Student::setNationalCode(std::string nationalCode){ this->nationalCode = na
 std::string Student::getPhoneNumber(){	return phoneNumber;}
 void Student::setPhoneNumber(const std::string& phoneNumber){ this->phoneNumber = phoneNumber; }
 std::vector <Lesson> Student::getLessons()const { return lessons; }
+void Student::pushLesson(Lesson newLesson){
+	lessons.push_back(newLesson);
+}

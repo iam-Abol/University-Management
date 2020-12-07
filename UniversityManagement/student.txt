@@ -10,5 +10,5 @@ Ali
 Mohay
 30800dss000000
 989222221112
-math 20 20 2ff0 0 0 2 2 02 0
-data structure 1df 1fd1 f11f d1f1 f1f 1f 1 1f 1f f1f1 1 1 1 1 
+math 20 20 200 0 0 2 2 02 0
+data structure 10 2 2 22 2 22222222 2

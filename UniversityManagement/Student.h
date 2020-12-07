@@ -38,6 +38,7 @@ public:
 	std::string getPhoneNumber();
 	void setPhoneNumber(const std::string& phoneNumber);
 	std::vector <Lesson> getLessons()const;
+	void pushLesson(Lesson newLesson);
 	Student();
 	~Student();
 	void printAllInformation();
