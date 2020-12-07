@@ -2,16 +2,17 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include "Student.h"
 class FileManagement
 {
-private:
-	 std::string fileName;
 public:
+
+
 	FileManagement();
 	~FileManagement();
-	void setFileName(const std::string& fileName);
-	static void Read(std::vector <Student>& students);
+	//void setFileName(const std::string& fileName);
+	static void Read(std::vector <Student>& students,std::string path);
 
-	
+
 };
 
